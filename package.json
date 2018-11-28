@@ -8,11 +8,12 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prerelease": "npm run build",
-    "release": "release-it 0.0.1"
+    "release": "release-it 0.0.2"
   },
   "dependencies": {},
   "devDependencies": {
