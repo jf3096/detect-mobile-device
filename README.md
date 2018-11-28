@@ -26,7 +26,7 @@ npm install --save detect-mobile-device
  * 获取 UA
  * @return {string}
  */
-export declare function getUserAgent(): any;
+export declare function getUserAgent(): string;
 /**
  * 判断是否是手机
  * @return {boolean}
