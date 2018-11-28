@@ -2,7 +2,7 @@
  * 获取 UA
  * @return {string}
  */
-export function getUserAgent() {
+export function getUserAgent(): string {
   const userAgent = navigator.userAgent || navigator.vendor || (window as any).opera;
   return userAgent.toLowerCase();
 }
@@ -26,6 +26,7 @@ export function isMobile() {
 
 /**
  * 判断是否是 android 设备
+ * @return {boolean}
  */
 export function isAndroid() {
   return /android/i.test(getUserAgent());
@@ -33,6 +34,7 @@ export function isAndroid() {
 
 /**
  * 判断是否 ios 设备
+ * @return {boolean}
  */
 export function isIOS() {
   return (
@@ -42,6 +44,7 @@ export function isIOS() {
 
 /**
  * 是否是 微信 设备
+ * @return {boolean}
  */
 export function isWeiXin() {
   const userAgent = getUserAgent();
@@ -50,6 +53,7 @@ export function isWeiXin() {
 
 /**
  * 判断是否是 mobile 微信
+ * @return {boolean}
  */
 export function isMWeiXin() {
   return isMobile() && isWeiXin();
@@ -65,7 +69,7 @@ export function isMQQ() {
   const isAndroidQQ =
     isAndroid() &&
     /MQQBrowser/i.test(navigator.userAgent) &&
-    /QQ/i.test(userAgent.split('mqqbrowser'));
+    /QQ/i.test(userAgent.split('mqqbrowser') as any);
   return isMobile() && (isIOSQQ || isAndroidQQ);
 }
 
