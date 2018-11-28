@@ -1,6 +1,6 @@
 {
   "name": "detect-mobile-device",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "detect mobile site device type",
   "author": "jf3096",
   "license": "MIT",
