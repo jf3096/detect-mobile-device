@@ -1,0 +1,8 @@
+{
+  "short_name": "detect-mobile-device",
+  "name": "detect-mobile-device",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
