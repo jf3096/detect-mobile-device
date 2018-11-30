@@ -34,18 +34,22 @@ export declare function getUserAgent(): string;
 export declare function isMobile(): boolean;
 /**
  * 判断是否是 android 设备
+ * @return {boolean}
  */
 export declare function isAndroid(): boolean;
 /**
  * 判断是否 ios 设备
+ * @return {boolean}
  */
 export declare function isIOS(): boolean;
 /**
  * 是否是 微信 设备
+ * @return {boolean}
  */
 export declare function isWeiXin(): boolean;
 /**
  * 判断是否是 mobile 微信
+ * @return {boolean}
  */
 export declare function isMWeiXin(): boolean;
 /**
@@ -58,6 +62,10 @@ export declare function isMQQ(): boolean;
  * @return {boolean}
  */
 export declare function isMWeibo(): boolean;
+/**
+ * 判断是否是江湖 daily App
+ */
+export declare function isJianghuDaily(): boolean;
 ```
 
 ## 0.0.4 (2018-11-30)
