@@ -81,3 +81,11 @@ export function isMWeibo() {
   const userAgent = getUserAgent();
   return isMobile() && /(weibo)/.test(userAgent);
 }
+
+/**
+ * 判断是否是江湖 daily App
+ */
+export function isJianghuDaily() {
+  const userAgent = getUserAgent();
+  return /jianghudaily/i.test(userAgent);
+}
