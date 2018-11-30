@@ -60,6 +60,12 @@ export declare function isMQQ(): boolean;
 export declare function isMWeibo(): boolean;
 ```
 
+## 0.0.4 (2018-11-30)
+* feat: 加入江湖 daily app 判断
+
+## 0.0.3 (2018-11-28)
+* feat: init commit
+
 ## License
 
 MIT © [jf3096](https://github.com/jf3096)
