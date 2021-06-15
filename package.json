@@ -1,6 +1,6 @@
 {
   "name": "detect-mobile-device",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "detect mobile site device type",
   "author": "jf3096",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prerelease": "npm run build",
-    "release": "release-it 0.0.2"
+    "release": "release-it 0.0.5"
   },
   "dependencies": {},
   "devDependencies": {

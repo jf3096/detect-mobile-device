@@ -89,3 +89,13 @@ export function isJianghuDaily() {
   const userAgent = getUserAgent();
   return /jianghudaily/i.test(userAgent);
 }
+
+/**
+ * 判断是否是飞书
+ */
+export function isLark() {
+  const userAgent = (getUserAgent() || '').toLowerCase();
+  // noinspection SpellCheckingInspection
+  return (!!userAgent && userAgent.indexOf('lark/') > -1 && userAgent.indexOf('larklocale/') > -1)
+}
+

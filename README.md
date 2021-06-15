@@ -66,7 +66,14 @@ export declare function isMWeibo(): boolean;
  * 判断是否是江湖 daily App
  */
 export declare function isJianghuDaily(): boolean;
+/**
+ * 判断是否是飞书
+ */
+export declare function isLark(): boolean;
 ```
+
+## 0.0.5 (2021-06-15)
+* feat: 加入飞书判断
 
 ## 0.0.4 (2018-11-30)
 * feat: 加入江湖 daily app 判断
