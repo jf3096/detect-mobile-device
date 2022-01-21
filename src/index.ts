@@ -99,3 +99,10 @@ export function isLark() {
   return (!!userAgent && userAgent.indexOf('lark/') > -1 && userAgent.indexOf('larklocale/') > -1)
 }
 
+/**
+ * 判断是否是微信小程序
+ */
+export function isWxMiniProgram() {
+  const userAgent = (getUserAgent() || '').toLowerCase();
+  return 'miniprogram' === window['__wxjs_environment'] || /miniprogram/i.test(userAgent);
+}

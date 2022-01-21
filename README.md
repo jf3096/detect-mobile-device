@@ -72,6 +72,9 @@ export declare function isJianghuDaily(): boolean;
 export declare function isLark(): boolean;
 ```
 
+## 0.0.6 (2022-01-21)
+* feat: 加入微信小程序
+
 ## 0.0.5 (2021-06-15)
 * feat: 加入飞书判断
 
