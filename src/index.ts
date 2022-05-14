@@ -66,10 +66,7 @@ export function isMWeiXin() {
 export function isMQQ() {
   const userAgent = getUserAgent();
   const isIOSQQ = isIOS() && / QQ/i.test(userAgent);
-  const isAndroidQQ =
-    isAndroid() &&
-    /MQQBrowser/i.test(navigator.userAgent) &&
-    /QQ/i.test(userAgent.split('mqqbrowser') as any);
+  const isAndroidQQ = isAndroid() && / QQ/i.test(userAgent);
   return isMobile() && (isIOSQQ || isAndroidQQ);
 }
 
