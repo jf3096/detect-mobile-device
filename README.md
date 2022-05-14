@@ -72,6 +72,10 @@ export declare function isJianghuDaily(): boolean;
 export declare function isLark(): boolean;
 ```
 
+
+## 0.0.8 (2022-05-14)
+* fix: 修复 qq 新版本更新后导致判断 `isMQQ` 返回 false 的问题
+
 ## 0.0.7 (2022-01-21)
 * feat: 加入微信小程序
 
